@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: helvetica;
+}
+
+#xlogo{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 30%;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#form button{
+    border-color: #c5c4c4;
+    background-color: white;
+    font-size: 15px;
+    font-family: helvetica;
+    margin: 5px 0;
+    width: 300px;
+    padding: 3px 0 3px;
+    cursor: pointer;
+}
+
+#form button:hover{
+    background-color: #c5c1c1;
+}
+
+img.button{
+    width: 4%;
+    display: inline;
+    margin-top: 2px;
+}
+
+.google{
+    margin-left: 3px;
+    font-size: 15px;
+    color: black;
+    font-family: helvetica;
+}
+
+.apple{
+    margin-left: 3px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    display: inline;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 600px;
+    margin-top: -250px;
+    width: max-content;
+}
+
+small{
+    display: block;
+    margin: auto 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+p.policy{
+    font-size: 11px;
+    font-family: helvetica;
+    margin: 5px 0 40px;
+}
+
+p.policy a{
+    color: rgb(43, 43, 235);
+    text-decoration: none;   
+}
+
+p.policy a:hover{
+    text-decoration: underline;
+}
+
+h3.already{
+    margin-bottom: 10px;
+}
+
+h3.already a{
+    color: black;
+    font-family: helvetica;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3.already a:hover{
+    text-decoration: underline;
+}
+
+button.signin{
+    background-color: rgb(127, 127, 245);
+    width: 300px;
+    font-family: helvetica;
+    font-size: 15px;
+    color: white;
+    border-color: rgb(127, 127, 245);
+    box-shadow: none;
+    margin-bottom: 50px;
+}
+
+
+button.signin:hover{
+    background-color: rgb(48, 48, 192);
+}
+
+footer{
+    font-size: 12px;
+    font-family: helvetica;
+    margin: 10px 55px 10px;
+}
+
+ul li{
+    display: inline;
+    margin: 5px 10px 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #aaa;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+div.second{
+    text-align: center;
+    margin-top: 10px;
+}
